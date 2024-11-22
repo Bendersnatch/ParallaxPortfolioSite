@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(138, 56, 173), rgb(231, 135, 223));
+    background-image: linear-gradient(to bottom, #913191, #cc66cc);
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: linear-gradient(to bottom, rgb(138, 56, 173), rgb(231, 135, 223));
+    background-image: linear-gradient(to bottom, #913191, #cc66cc);
 }
 
 .fog-anim {
@@ -52,7 +52,7 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: #359381;
+    color: #3c6585;
     background: #c0c0c0;
     padding: 6px 15px;
     border-radius: 20px;
@@ -66,7 +66,7 @@ header {
 
 .navigation a:hover,
 .navigation a.active {
-    background: #359381;
+    background: #3c6585;
     color: #c0c0c0;
 }
 
@@ -98,7 +98,7 @@ header {
 
 .sec {
     position: relative;
-    background: #359381;
+    background-image: linear-gradient(to bottom, #993399, #333366);
     padding: 100px;
 }
 
