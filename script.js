@@ -7,9 +7,9 @@ let building_right = document.getElementById('building_right');
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
-    text.style.marginTop = value * 2.5 + 'px';
-    building_right.style.left = value * 1.5 + 'px';
-    building_left.style.left = value * -1.5 + 'px';
-    building1.style.top = value * 1 + 'px';
-    building2.style.top = value * 1 + 'px';
+    text.style.marginTop = value * 2 + 'px';
+    building_right.style.top = value * 1.3 + 'px';
+    building_left.style.top = value * 1.3 + 'px';
+    building1.style.top = value * 0.8 + 'px';
+    building2.style.top = value * 0.8 + 'px';
 });
