@@ -95,21 +95,82 @@ header {
     pointer-events: none;
 }
 
-
-.sec {
-    position: relative;
-    background-image: linear-gradient(to bottom, #993399, #333366);
-    padding: 100px;
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
-.sec h2 {
-    font-size: 3em;
-    color: #c0c0c0;
-    margin-bottom: 10px;
+#project-section{
+    background-image: linear-gradient(to bottom, #7f357f, #333366);
 }
 
-.sec p {
-    font-size: 1em;
+section .animate {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.sec-1 .animate {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+
+.sec-1.show-animate .animate {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.sec-2 .animate {
+    transform: translate(100%);
+    -webkit-transform: translate(100%);
+    -moz-transform: translate(100%);
+    -ms-transform: translate(100%);
+    -o-transform: translate(100%);
+}
+
+.sec-2.show-animate .animate {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.sec-3 .animate {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+}
+
+.sec-3.show-animate .animate {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+h2 {
+    font-size: 90px;
     color: #c0c0c0;
-    font-weight: 300;
+}
+
+p {
+    font-size: 35px;
+    color: #4da720;
+    font-weight: 600;
 }
