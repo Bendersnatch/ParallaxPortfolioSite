@@ -13,3 +13,19 @@ window.addEventListener('scroll', () => {
     building1.style.top = value * 0.8 + 'px';
     building2.style.top = value * 0.8 + 'px';
 });
+
+let sections = document.querySelectorAll('section');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+
+        if (top >= offset && top < offset + height) {
+            sec.classList.add('show-animate');
+        } else {
+            sec.classList.remove('show-animate');
+        }
+    })
+}
