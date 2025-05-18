@@ -3,7 +3,8 @@ Sito-portfolio per futuri progetti
 
 ## 
 HTML
-CSS (astyle, parallax animation)
+
+CSS (style, parallax animation)
 
 ### To - do
 sistemare per il mobile/tablet
